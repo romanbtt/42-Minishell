@@ -19,11 +19,11 @@ to english.
 - `unset` with no options
 - `env` with no options or arguments
 - `exit` with no options
-- '’' inhibit all interpretation of a sequence of characters.
-- '"' inhibit all interpretation of a sequence of characters except for $.
+- ’ inhibit all interpretation of a sequence of characters.
+- " inhibit all interpretation of a sequence of characters except for $.
 - '<' redirect input.
 - '>' redirect output
-- >> redirect output with append mode.
+- '>>' redirect output with append mode.
 - Pipes | The output of each command in the pipeline is connected via a pipe to the
 input of the next command.
 - Environment variables ($ followed by characters) expand to their values
